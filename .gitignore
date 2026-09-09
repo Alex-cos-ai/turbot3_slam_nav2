@@ -1,0 +1,19 @@
+# ROS 2 / colcon generated files
+build/
+install/
+log/
+
+# Python and editor generated files
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# Large runtime data
+*.bag
+*.db3
+
+# Other local workspace/repository files
+turbot3_slam_nav2/
+frames_*.gv
+frames_*.pdf
