@@ -167,7 +167,7 @@ def generate_launch_description():
             'headless', default_value='false',
             description='Start Gazebo without its GUI.'),
         DeclareLaunchArgument(
-            'mapping', default_value='true',
+            'mapping', default_value='false',
             description=(
                 'Start slam_toolbox mapping and disable AMCL/map_server. '
                 'Set false for localization/navigation mode.')),
@@ -175,7 +175,7 @@ def generate_launch_description():
             'world', default_value=default_world,
             description='Gazebo world file.'),
         DeclareLaunchArgument(
-            'navigation', default_value='false',
+            'navigation', default_value='true',
             description='Start the Nav2 planner, controller and BT navigator.'),
         DeclareLaunchArgument(
             'rviz', default_value='true',

@@ -39,4 +39,11 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  PROGRAMS
+    scripts/nav_goal_evaluator.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME nav_goal_evaluator
+)
+
 ament_package()
