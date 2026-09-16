@@ -16,3 +16,4 @@
 ```yaml
 max_particles: 5000
 min_particles: 1000  # 原值 100
+laser_model_type: "likelihood_field_prob" # 筛选光束模式，用于动态避障
