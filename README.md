@@ -23,13 +23,13 @@ min_particles: 1000  # 原值 100
 laser_model_type: "likelihood_field_prob" # 筛选光束模式，用于动态避障
 do_beamskip: true
 ```
-‘‘‘yaml
+```yaml
     # 减少雷达激光置信度，增大对里程计的置信度
     alpha1: 0.015
     alpha2: 0.015
     alpha3: 0.015
     alpha4: 0.015
-’’’
+```
 
 实际效果：
 将障碍物放置机器人膨胀范围内，放入障碍物，第一次脱困用时1分钟找到路径并启动移动，第二次用时10s找到合适路径，没有出现定位误差大的情况
